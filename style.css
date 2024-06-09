@@ -1,0 +1,68 @@
+                body{
+                    font-family: Arial, Helvetica, sans-serif;
+                    color:white;
+                    background-image: url("back.png");
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                h1{
+                    text-align: center;
+                    padding:1em;
+                }
+                .board{
+                    display:flex;
+                    flex-direction:column;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .box{
+                    border:white solid 2px;
+                    background-color: rgba(0,0,0,0);
+                    width:150px;
+                    height:150px;
+                    color:white;
+                    font-size: 2em;
+                }
+                .box:hover{
+                    background-color:rgba(255,255,255,0.1);
+                    cursor: pointer;
+                }
+                .row{
+                    display: flex;
+                    flex-direction: row;
+                }
+                #box1{
+                    border-top:none;
+                    border-left:none;
+                }
+                #box2{
+                    border-top:none;
+                }
+                #box3{border-right:none;
+                border-top:none;}
+                #box4{border-left:none;}
+                #box6{border-right:none;}
+                #box7{border-left:none;
+                border-bottom:none;}
+                #box8{border-bottom:none;}
+                #box9{border-bottom:none;
+                border-right:none;}
+                #restart{
+                    background-color: black;
+                    color:white;
+                    margin-top:2em;
+                    margin-bottom: 2em;
+                }
+                #restart:hover{
+                    cursor:pointer;
+                }
+                h2{
+                    margin-right: 2em;
+                    margin-bottom: 1em;
+                }
+                #winner1{
+                    display: none;
+                }
+                #winner2{
+                    display: none;
+                }
